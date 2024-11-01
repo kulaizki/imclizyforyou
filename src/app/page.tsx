@@ -1,5 +1,6 @@
 import Crew from "@/components/Crew";
 import Sponsors from "@/components/Sponsors";
+import Gifts from "@/components/Gifts";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       </h1>
 
       <Crew />
+      <Gifts />
       <Sponsors />
 
       <div className="flex flex-col z-10 text-center px-4 gap-6 max-w-2xl">

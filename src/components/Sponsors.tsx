@@ -6,7 +6,6 @@ export default function Sponsors() {
           Sponsors
         </h1>
 
-        {/* Principal Sponsors Section */}
         <div className="text-center max-w-4xl mb-16">
           <h2 className="text-4xl font-wedding text-blue-700 mb-8">Principal Sponsors</h2>
           <div className="flex flex-wrap justify-center gap-4 text-lg text-gray-800">
@@ -25,7 +24,6 @@ export default function Sponsors() {
           </div>
         </div>
 
-        {/* Secondary Sponsors Section */}
         <div className="text-center max-w-4xl">
           <h2 className="text-4xl font-wedding text-blue-700 mb-8">Secondary Sponsors</h2>
           <div className="flex flex-col gap-8 text-lg text-gray-800">

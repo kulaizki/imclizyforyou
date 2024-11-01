@@ -25,14 +25,6 @@ export default function Home() {
         </p>
       </div>
 
-      <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
-        Reception
-      </h1>
-
-      <Crew />
-      <Gifts />
-      <Sponsors />
-
       <div className="flex flex-col z-10 text-center px-4 gap-6 max-w-2xl">
         <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
           Guest Attire
@@ -46,13 +38,21 @@ export default function Home() {
       </div>
 
       <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
+        Reception
+      </h1>
+
+      <Crew />
+      <Gifts />
+      <Sponsors />
+
+      <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
         Join us
       </h1>
 
       <iframe
         title="RSVP Form"
         src="https://docs.google.com/forms/d/e/1FAIpQLSduD45efj0H9cTl_ClTztjaJoQM-626YssPMN7PaAI26U1-jA/viewform?embedded=true"
-        className="w-full h-[580px] border-0"
+        className="w-full h-[580px] border-0 mb-10"
         allowFullScreen
       >
         Loading…

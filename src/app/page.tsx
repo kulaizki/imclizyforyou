@@ -60,7 +60,7 @@ export default function Home() {
       <iframe
         title="RSVP Form"
         src="https://docs.google.com/forms/d/e/1FAIpQLSduD45efj0H9cTl_ClTztjaJoQM-626YssPMN7PaAI26U1-jA/viewform?embedded=true"
-        className="w-full h-96 md:h-96 lg:h-[474px] border-0"
+        className="w-full h-96 md:h-96 lg:h-[474px] border-0 mb-10"
         allowFullScreen
       >
         Loading…

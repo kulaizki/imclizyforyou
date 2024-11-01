@@ -11,7 +11,6 @@ export default function Home() {
         </p>
       </div>
       
-      {/* Venue Section */}
       <div className="text-center py-12 max-w-xl px-4">
         <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
           Venue

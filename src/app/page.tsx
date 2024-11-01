@@ -14,11 +14,11 @@ export default function Home() {
         Your browser does not support the video tag.
       </video>
 
-      <div className="flex flex-col z-10 text-center px-4 gap-6">
+      <div className="flex flex-col z-10 text-center px-4 gap-8">
         <h1 className="text-7xl font-wedding text-gray-800 tracking-wide">
           Clive and Zyra&apos;s Wedding
         </h1>
-        <p className="text-xl font-body text-gray-700 leading-7">
+        <p className="text-3xl font-body text-gray-600 leading-7">
           Celebrate this special day with us!
         </p>
       </div>

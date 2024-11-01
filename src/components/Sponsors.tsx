@@ -6,38 +6,40 @@ export default function Sponsors() {
           Sponsors
         </h1>
 
+        {/* Principal Sponsors Section */}
         <div className="text-center max-w-4xl mb-16">
           <h2 className="text-4xl font-wedding text-blue-700 mb-8">Principal Sponsors</h2>
           <div className="flex flex-wrap justify-center gap-4 text-lg text-gray-800">
-            <p>ATTY. JONATHAN DAGA & ATTY. VEVELYN MONSANTO</p>
-            <p>DR. VICTOR CAÑEZO, JR. & PROS. MA. ARLENE HUÑAMAYOR-CORDOVEZ</p>
-            <p>ATTY. JOSEPH KIRBY CALIPAYAN & JUDGE DJHOANA GENE CLEMENCIO</p>
-            <p>ATTY. GERENSTEIN BANZON & MS. MELINDA BANZON</p>
-            <p>DR. ANTONIO LIM JR. & DR. MONINA M. MANALANG</p>
-            <p>PROF. EDILBERTO MANAHAN & PROF. ALETH THERESE DACANAY</p>
-            <p>ATTY. CLINT OCTAVIUS LABTIC & JUDGE MA. CIELO VELASQUEZ-MARTINEZ</p>
-            <p>JUDGE ADRYAN MAURO & ATTY. SHARILEE ANGELA MAURO</p>
-            <p>ATTY. DARWIN BIBAR & JUDGE HASMIN CRISTY AVILA-BIBAR</p>
-            <p>ASST. PROF. ROBERTO MANAOIS & PROF. MARIA RUTH PINEDA-CORTEL</p>
-            <p>SIR BERNIE JUDE LAMOGRAR & HON. SUSAN PARILLA</p>
-            <p>MS. RUTH BANGAOIL & MR. ELBERT ALDWIN DE JESUS</p>
+            <p>ATTY. JONATHAN <span className="text-purple-700">DAGA</span> & ATTY. VEVELYN <span className="text-purple-700">MONSANTO</span></p>
+            <p>DR. VICTOR <span className="text-purple-700">CAÑEZO</span>, JR. & PROS. MA. ARLENE <span className="text-purple-700">HUÑAMAYOR-CORDOVEZ</span></p>
+            <p>ATTY. JOSEPH KIRBY <span className="text-purple-700">CALIPAYAN</span> & JUDGE DJHOANA GENE <span className="text-purple-700">CLEMENCIO</span></p>
+            <p>ATTY. GERENSTEIN <span className="text-purple-700">BANZON</span> & MS. MELINDA <span className="text-purple-700">BANZON</span></p>
+            <p>DR. ANTONIO <span className="text-purple-700">LIM</span> JR. & DR. MONINA M. <span className="text-purple-700">MANALANG</span></p>
+            <p>PROF. EDILBERTO <span className="text-purple-700">MANAHAN</span> & PROF. ALETH THERESE <span className="text-purple-700">DACANAY</span></p>
+            <p>ATTY. CLINT OCTAVIUS <span className="text-purple-700">LABTIC</span> & JUDGE MA. CIELO <span className="text-purple-700">VELASQUEZ-MARTINEZ</span></p>
+            <p>JUDGE ADRYAN <span className="text-purple-700">MAURO</span> & ATTY. SHARILEE ANGELA <span className="text-purple-700">MAURO</span></p>
+            <p>ATTY. DARWIN <span className="text-purple-700">BIBAR</span> & JUDGE HASMIN CRISTY <span className="text-purple-700">AVILA-BIBAR</span></p>
+            <p>ASST. PROF. ROBERTO <span className="text-purple-700">MANAOIS</span> & PROF. MARIA RUTH <span className="text-purple-700">PINEDA-CORTEL</span></p>
+            <p>SIR BERNIE JUDE <span className="text-purple-700">LAMOGRAR</span> & HON. SUSAN <span className="text-purple-700">PARILLA</span></p>
+            <p>MS. RUTH <span className="text-purple-700">BANGAOIL</span> & MR. ELBERT ALDWIN <span className="text-purple-700">DE JESUS</span></p>
           </div>
         </div>
 
+        {/* Secondary Sponsors Section */}
         <div className="text-center max-w-4xl">
           <h2 className="text-4xl font-wedding text-blue-700 mb-8">Secondary Sponsors</h2>
           <div className="flex flex-col gap-8 text-lg text-gray-800">
             <div>
               <h3 className="text-2xl font-wedding text-gray-700">(To Light Our Path)</h3>
-              <p>ARNOLD JUDD & CHELISSA MAE</p>
+              <p>ARNOLD <span className="text-purple-700">JUDD</span> & CHELISSA <span className="text-purple-700">MAE</span></p>
             </div>
             <div>
               <h3 className="text-2xl font-wedding text-gray-700">(To Clothe Us As One)</h3>
-              <p>STEVE CHUCKIE & MARIA ELENA</p>
+              <p>STEVE <span className="text-purple-700">CHUCKIE</span> & MARIA <span className="text-purple-700">ELENA</span></p>
             </div>
             <div>
               <h3 className="text-2xl font-wedding text-gray-700">(To Bind Us Together)</h3>
-              <p>OLIVER NORMAN & LEISA JEANNE</p>
+              <p>OLIVER <span className="text-purple-700">NORMAN</span> & LEISA <span className="text-purple-700">JEANNE</span></p>
             </div>
           </div>
         </div>

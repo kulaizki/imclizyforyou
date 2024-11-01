@@ -1,7 +1,6 @@
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
-
       <video
         className="w-full h-screen object-cover"
         autoPlay
@@ -18,7 +17,7 @@ export default function Home() {
           Clive and Zyra&apos;s Wedding
         </h1>
         <p className="text-xl font-body text-gray-600 mt-4 leading-7">
-          Celebrate this special day with us!
+          Celebrate this special day with us
         </p>
       </div>
 
@@ -27,10 +26,10 @@ export default function Home() {
           Venue
         </h1>
         <p className="text-xl font-body text-gray-600 mt-4 leading-7">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reprehenderit 
-          accusantium minima eum porro laudantium dolor ipsum? Tempora, corporis 
-          laboriosam, repellendus eligendi ut iusto sunt optio sint, magnam magni 
-          asperiores?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+          reprehenderit accusantium minima eum porro laudantium dolor ipsum?
+          Tempora, corporis laboriosam, repellendus eligendi ut iusto sunt optio
+          sint, magnam magni asperiores?
         </p>
       </div>
 
@@ -39,10 +38,10 @@ export default function Home() {
           Attire
         </h1>
         <p className="text-xl font-body text-gray-600 mt-4 leading-7">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reprehenderit 
-          accusantium minima eum porro laudantium dolor ipsum? Tempora, corporis 
-          laboriosam, repellendus eligendi ut iusto sunt optio sint, magnam magni 
-          asperiores?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+          reprehenderit accusantium minima eum porro laudantium dolor ipsum?
+          Tempora, corporis laboriosam, repellendus eligendi ut iusto sunt optio
+          sint, magnam magni asperiores?
         </p>
       </div>
 
@@ -51,12 +50,22 @@ export default function Home() {
           Join us
         </h1>
         <p className="text-xl font-body text-gray-600 mt-4 leading-7">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reprehenderit 
-          accusantium minima eum porro laudantium dolor ipsum? Tempora, corporis 
-          laboriosam, repellendus eligendi ut iusto sunt optio sint, magnam magni 
-          asperiores?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+          reprehenderit accusantium minima eum porro laudantium dolor ipsum?
+          Tempora, corporis laboriosam, repellendus eligendi ut iusto sunt optio
+          sint, magnam magni asperiores?
         </p>
       </div>
+
+      <iframe
+        title="RSVP Form"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSduD45efj0H9cTl_ClTztjaJoQM-626YssPMN7PaAI26U1-jA/viewform?embedded=true"
+        className="w-full h-96 md:h-96 lg:h-[474px] border-0"
+        allowFullScreen
+      >
+        Loading…
+      </iframe>
+
     </div>
   );
 }

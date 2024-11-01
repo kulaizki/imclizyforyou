@@ -31,10 +31,10 @@ const Hero = () => {
           isVisible ? "translate-y-0" : "-translate-y-10"
         }`}
       >
-        <h1 className="text-7xl font-wedding text-gray-800 tracking-wide animate-fadeIn">
+        <h1 className="text-8xl font-wedding text-gray-800 tracking-wide animate-fadeIn">
           Clive & Zyra&apos;s Wedding
         </h1>
-        <p className="text-3xl font-serif text-gray-600 leading-7 animate-fadeIn delay-200">
+        <p className="text-4xl font-serif text-gray-600 leading-7 animate-fadeIn delay-200">
           Celebrate this special day with us!
         </p>
       </div>

@@ -24,17 +24,9 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="flex flex-col z-10 text-center px-4 gap-6 max-w-2xl">
-        <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
-          Venue
-        </h1>
-        <p className="text-xl font-body text-gray-700 leading-7">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-          reprehenderit accusantium minima eum porro laudantium dolor ipsum?
-          Tempora, corporis laboriosam, repellendus eligendi ut iusto sunt optio
-          sint, magnam magni asperiores?
-        </p>
-      </div>
+      <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
+        Reception
+      </h1>
 
       <Crew />
       <Sponsors />
@@ -51,17 +43,9 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="flex flex-col z-10 text-center px-4 gap-6 max-w-2xl">
-        <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
-          Join us
-        </h1>
-        <p className="text-xl font-body text-gray-700 leading-7">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-          reprehenderit accusantium minima eum porro laudantium dolor ipsum?
-          Tempora, corporis laboriosam, repellendus eligendi ut iusto sunt optio
-          sint, magnam magni asperiores?
-        </p>
-      </div>
+      <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
+        Join us
+      </h1>
 
       <iframe
         title="RSVP Form"

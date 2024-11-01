@@ -1,8 +1,9 @@
 import Crew from "@/components/Crew";
+import Sponsors from "@/components/Sponsors";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-[#fef1cf] gap-y-20">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#fef1cf] gap-y-16">
       <video
         className="w-full h-screen object-cover"
         autoPlay
@@ -34,8 +35,9 @@ export default function Home() {
           sint, magnam magni asperiores?
         </p>
       </div>
-    
+
       <Crew />
+      <Sponsors />
 
       <div className="flex flex-col z-10 text-center px-4 gap-6 max-w-2xl">
         <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">

@@ -1,3 +1,5 @@
+import Crew from "@/components/Crew";
+
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#fef1cf] gap-y-20">
@@ -32,10 +34,12 @@ export default function Home() {
           sint, magnam magni asperiores?
         </p>
       </div>
+    
+      <Crew />
 
       <div className="flex flex-col z-10 text-center px-4 gap-6 max-w-2xl">
         <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
-          Attire
+          Guest Attire
         </h1>
         <p className="text-xl font-body text-gray-700 leading-7">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo

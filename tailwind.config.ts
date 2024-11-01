@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        wedding: ["'Great Vibes'", "cursive"],
+        body: ["'Playfair Display'", "serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

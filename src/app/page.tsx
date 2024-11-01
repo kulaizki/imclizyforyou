@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
-      {/* Main Wedding Title */}
+
       <div className="text-center py-12 px-4">
         <h1 className="text-7xl font-wedding text-gray-800 tracking-wide">
           Clive and Zyra&apos;s Wedding
@@ -24,7 +24,6 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Attire Section */}
       <div className="text-center py-12 max-w-xl px-4">
         <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
           Attire
@@ -37,7 +36,6 @@ export default function Home() {
         </p>
       </div>
 
-      {/* RSVP Section */}
       <div className="text-center py-12 max-w-xl px-4">
         <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">
           Join us

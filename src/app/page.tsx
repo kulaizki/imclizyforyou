@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import Crew from "@/components/Crew";
 import Sponsors from "@/components/Sponsors";
 import Gifts from "@/components/Gifts";
+import Children from "@/components/Children";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Crew />
       <Gifts />
       <Sponsors />
+      <Children />
       
       <div className="flex flex-col z-10 text-center px-4 gap-6 max-w-2xl">
         <h1 className="text-5xl font-wedding font-semibold text-gray-800 tracking-wide">

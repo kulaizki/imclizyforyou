@@ -4,6 +4,7 @@ import Sponsors from "@/components/Sponsors";
 import Gifts from "@/components/Gifts";
 import Children from "@/components/Children";
 import Attire from "@/components/Attire";
+import Reception from "@/components/Reception";
 
 export default function Home() {
   return (
@@ -22,9 +23,10 @@ export default function Home() {
       <Hero />
       <Crew />
       <Sponsors />
-      <Children />
+      <Reception />
       <Attire />
       <Gifts />
+      <Children />
 
       <h1 className="text-7xl font-wedding font-semibold text-gray-800 tracking-wide">
         Join us

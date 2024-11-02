@@ -3,7 +3,7 @@ import React from "react";
 const GiftsChildren = () => {
   return (
     <div className="flex flex-col gap-y-16 md:flex-row bg-[#fef1cf] px-8 select-none">
-      <div className="bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-10 mx-4 flex flex-col justify-between max-w-2xl">
+      <div className="bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-10 mx-4 flex flex-col justify-top max-w-2xl">
         <h1 className="text-5xl font-wedding font-bold text-gray-800 text-center mb-12">
           Gifts
         </h1>
@@ -23,6 +23,7 @@ const GiftsChildren = () => {
           </p>
         </div>
       </div>
+
       <div className="bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-10 mx-4 flex flex-col justify-top max-w-2xl">
         <h1 className="text-5xl font-wedding font-bold text-gray-800 text-center mb-12">
           Children & Plus Ones

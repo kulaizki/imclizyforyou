@@ -3,8 +3,6 @@
 import Image from "next/image";
 import Crew from "@/components/Crew";
 import Sponsors from "@/components/Sponsors";
-// import Gifts from "@/components/Gifts";
-// import Children from "@/components/Children";
 import ReceptionGuest from "@/components/ReceptionGuest";
 import GiftsChildren from "@/components/GiftsChildren";
 
@@ -54,8 +52,6 @@ export default function Home() {
           <Crew />
           <ReceptionGuest />
           <GiftsChildren />
-          {/* <Gifts />
-          <Children /> */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl select-none font-wedding font-semibold text-gray-800 tracking-wide">
             RSVP
           </h1>

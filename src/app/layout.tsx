@@ -16,9 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.png" sizes="any" /> 
+        <link rel="icon" href="/favicon.png" sizes="any" />
       </head>
-      <body className="antialiased font-body">
+      <body className="antialiased font-body no-select"> 
         {children}
       </body>
     </html>

@@ -25,7 +25,7 @@ const ReceptionGuest = () => {
             width={180}
             height={180}
             draggable="false"
-            className="rounded-xl"
+            className="rounded-xl no-select"
           />
         </div>
       </div>

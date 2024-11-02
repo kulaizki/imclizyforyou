@@ -40,8 +40,9 @@ export default function Home() {
               alt="Clive & Zyra's Wedding"
               fill
               sizes="100vw"
-              className="object-cover mt-32 md:mt-20 lg:mt-0" 
+              className="object-cover mt-32 md:mt-20 lg:mt-0 no-select" 
               priority
+              draggable='false'
             />
           </div>
         </div>

@@ -56,7 +56,7 @@ export default function Crew() {
             </p>
           </div>
 
-          <div className="flex-1 text-center">
+          <div className="flex-1 text-center sm:mt-8">
             <h2 className="text-2xl sm:text-3xl font-wedding font-semibold text-blue-600">
               Groom&apos;s Guild
             </h2>

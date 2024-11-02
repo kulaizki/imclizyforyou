@@ -1,12 +1,12 @@
 "use client";
+
 import Image from "next/image";
 import Crew from "@/components/Crew";
 import Sponsors from "@/components/Sponsors";
-import Gifts from "@/components/Gifts";
-import Children from "@/components/Children";
-import Attire from "@/components/Attire";
-import Reception from "@/components/Reception";
+// import Gifts from "@/components/Gifts";
+// import Children from "@/components/Children";
 import ReceptionGuest from "@/components/ReceptionGuest";
+import GiftsChildren from "@/components/GiftsChildren";
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
             muted
             playsInline
           >
-            <source src="/assets/3.mp4" type="video/mp4" />
+            <source src="/assets/31.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
@@ -53,10 +53,9 @@ export default function Home() {
           <Sponsors />
           <Crew />
           <ReceptionGuest />
-          {/* <Reception />
-          <Attire /> */}
-          <Gifts />
-          <Children />
+          <GiftsChildren />
+          {/* <Gifts />
+          <Children /> */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl select-none font-wedding font-semibold text-gray-800 tracking-wide">
             RSVP
           </h1>

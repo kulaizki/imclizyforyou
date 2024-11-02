@@ -3,8 +3,10 @@ export default function Sponsors() {
     <div className="flex flex-col items-center justify-center bg-[#fef1cf] gap-y-8 px-8">
       <div className="flex flex-col gap-16 bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-20 max-w-5xl w-full">
         <div className="text-center max-w-4xl">
-          <h2 className="text-4xl select-none font-wedding font-semibold text-blue-700 mb-8">Principal Sponsors</h2>
-          <div className="flex flex-wrap justify-center gap-4 text-lg select-none text-gray-800">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl select-none font-wedding font-semibold text-blue-700 mb-8">
+            Principal Sponsors
+          </h2>
+          <div className="flex flex-wrap justify-center gap-4 text-lg sm:text-xl select-none text-gray-800">
             <p>ATTY. JONATHAN <span className="text-purple-700">DAGA</span> & ATTY. VEVELYN <span className="text-purple-700">MONSANTO</span></p>
             <p>DR. VICTOR <span className="text-purple-700">CAÑEZO</span>, JR. & PROS. MA. ARLENE <span className="text-purple-700">HUÑAMAYOR-CORDOVEZ</span></p>
             <p>ATTY. JOSEPH KIRBY <span className="text-purple-700">CALIPAYAN</span> & JUDGE DJHOANA GENE <span className="text-purple-700">CLEMENCIO</span></p>
@@ -21,18 +23,20 @@ export default function Sponsors() {
         </div>
 
         <div className="text-center max-w-4xl">
-          <h2 className="text-4xl select-none font-wedding font-semibold text-blue-700 mb-8">Secondary Sponsors</h2>
-          <div className="flex flex-col gap-8 text-lg select-none text-gray-800">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl select-none font-wedding font-semibold text-blue-700 mb-8">
+            Secondary Sponsors
+          </h2>
+          <div className="flex flex-col gap-8 text-lg sm:text-xl select-none text-gray-800">
             <div>
-              <h3 className="text-lg font-regular text-gray-700 select-none">(To Light Our Path)</h3>
+              <h3 className="text-lg sm:text-xl font-regular text-gray-700 select-none">(To Light Our Path)</h3>
               <p>ARNOLD <span className="text-purple-700">JUDD</span> & CHELISSA <span className="text-purple-700">MAE</span></p>
             </div>
             <div>
-              <h3 className="text-lg font-regular text-gray-700 select-none">(To Clothe Us As One)</h3>
+              <h3 className="text-lg sm:text-xl font-regular text-gray-700 select-none">(To Clothe Us As One)</h3>
               <p>STEVE <span className="text-purple-700">CHUCKIE</span> & MARIA <span className="text-purple-700">ELENA</span></p>
             </div>
             <div>
-              <h3 className="text-lg font-regular eext-gray-700 select-none">(To Bind Us Together)</h3>
+              <h3 className="text-lg sm:text-xl font-regular text-gray-700 select-none">(To Bind Us Together)</h3>
               <p>OLIVER <span className="text-purple-700">NORMAN</span> & LEISA <span className="text-purple-700">JEANNE</span></p>
             </div>
           </div>

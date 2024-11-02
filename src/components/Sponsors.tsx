@@ -1,8 +1,8 @@
 export default function Sponsors() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#fef1cf] gap-y-8 p-8">
-      <div className="bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-20 max-w-5xl w-full">
-        <div className="text-center max-w-4xl mb-16">
+      <div className="flex flex-col gap-16 bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-20 max-w-5xl w-full">
+        <div className="text-center max-w-4xl">
           <h2 className="text-4xl select-none font-wedding font-semibold text-blue-700 mb-8">Principal Sponsors</h2>
           <div className="flex flex-wrap justify-center gap-4 text-lg select-none text-gray-800">
             <p>ATTY. JONATHAN <span className="text-purple-700">DAGA</span> & ATTY. VEVELYN <span className="text-purple-700">MONSANTO</span></p>

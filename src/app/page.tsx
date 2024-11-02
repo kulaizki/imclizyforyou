@@ -1,4 +1,6 @@
-import Image from 'next/image';
+"use client";
+
+import Image from "next/image";
 import Crew from "@/components/Crew";
 import Sponsors from "@/components/Sponsors";
 import Gifts from "@/components/Gifts";
@@ -24,8 +26,19 @@ export default function Home() {
 
       <div className="relative z-10">
         <div className="h-screen"></div>
-        <div className="relative w-full">
-          <div className="relative w-full h-screen">
+        <div className="relative w-full h-screen">
+          <div
+            className="relative w-full h-full"
+            style={{
+              background: "linear-gradient(to top, #fef1cf 10%, transparent 100%)", 
+              position: "absolute",
+              top: 0,
+              left: 0,
+              right: 0,
+              bottom: 0,
+              zIndex: 10,
+            }}
+          >
             <Image
               src="/assets/image-header.png"
               alt="Clive & Zyra's Wedding"

@@ -29,7 +29,7 @@ export default function Home() {
       <Children />
 
       <h1 className="text-7xl select-none font-wedding font-semibold text-gray-800 tracking-wide">
-        Join us
+        RSVP
       </h1>
 
       <iframe

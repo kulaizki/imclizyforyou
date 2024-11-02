@@ -15,7 +15,7 @@ export default function Crew() {
             <h2 className="text-2xl sm:text-3xl font-wedding font-semibold text-purple-600">
               Bride&apos;s Circle
             </h2>
-            <p className="text-base sm:text-lg mt-4 text-gray-800 uppercase">
+            <p className="text-purple-400 text-base sm:text-lg mt-4 text-gray-800 uppercase">
               (Maid of Honor) Marissa Xuxa
             </p>
             <p className="text-base sm:text-lg text-gray-800 uppercase">
@@ -60,7 +60,7 @@ export default function Crew() {
             <h2 className="text-2xl sm:text-3xl font-wedding font-semibold text-blue-600">
               Groom&apos;s Guild
             </h2>
-            <p className="text-base sm:text-lg mt-4 text-gray-800 uppercase">
+            <p className="text-blue-400 text-base sm:text-lg mt-4 text-gray-800 uppercase">
               (Best Man) Angelo Jude
             </p>
             <p className="text-base sm:text-lg text-gray-800 uppercase">

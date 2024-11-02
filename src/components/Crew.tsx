@@ -104,7 +104,7 @@ export default function Crew() {
 
         <div className="text-center max-w-4xl mt-8">
           <h2 className="text-2xl sm:text-3xl font-wedding font-semibold text-purple-600">
-            The Flavras Dryads
+            The Flauras Dryads
           </h2>
           <div className="flex flex-wrap justify-center mt-4 gap-x-6 gap-y-2 text-base sm:text-lg text-gray-800 uppercase">
             <p>Arya Madison</p>

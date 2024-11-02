@@ -6,12 +6,13 @@ import Gifts from "@/components/Gifts";
 import Children from "@/components/Children";
 import Attire from "@/components/Attire";
 import Reception from "@/components/Reception";
+import ReceptionGuest from "@/components/ReceptionGuest";
 
 export default function Home() {
   return (
     <main className="relative">
       <div className="fixed inset-0 w-full h-screen z-0">
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-auto">
           <video
             className="absolute w-full h-auto sm:h-[70vh] md:h-[40vh] lg:h-[100vh] object-cover"
             autoPlay
@@ -26,7 +27,8 @@ export default function Home() {
       </div>
 
       <div className="relative z-10">
-        <div className="h-screen"></div>
+        <div className="h-48 sm:h-80 md:h-64 lg:h-screen"></div>
+
         <div className="relative w-full h-screen">
           <div
             className="absolute inset-0 w-full h-full"
@@ -50,8 +52,9 @@ export default function Home() {
         <div className="bg-[#fef1cf] flex flex-col items-center gap-y-16 p-4">
           <Sponsors />
           <Crew />
-          <Reception />
-          <Attire />
+          <ReceptionGuest />
+          {/* <Reception />
+          <Attire /> */}
           <Gifts />
           <Children />
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl select-none font-wedding font-semibold text-gray-800 tracking-wide">

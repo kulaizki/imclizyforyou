@@ -25,10 +25,9 @@ export default function Home() {
       <div className="absolute inset-0 w-full z-10">
         <div className="h-[50%] sm:h-[40vh] md:h-[32vh] lg:h-screen" />
 
-        {/* Image Header Section */}
-        <div className="relative w-full h-[60vh] sm:h-[40vh] md:h-[60vh] lg:h-screen">
+        <div className="relative w-full h-[70vh] sm:h-[40vh] md:h-[60vh] lg:h-screen">
           <div
-            className="absolute inset-0 w-full h-full"
+            className="absolute inset-0 w-full h-full mt-10"
             style={{
               background:
                 "linear-gradient(to top, #fef1cf 10%, transparent 100%)",
@@ -39,13 +38,12 @@ export default function Home() {
               alt="Clive & Zyra's Wedding"
               fill
               sizes="100vw"
-              className="object-cover mt-32 sm:mt-48 md:mt-20 lg:mt-0" // Increased mt values for xs, sm, and md screens
+              className="object-cover mt-32 md:mt-20 lg:mt-0" 
               priority
             />
           </div>
         </div>
 
-        {/* Main Content Section */}
         <div className="bg-[#fef1cf] flex flex-col items-center gap-y-16 p-4">
           <Sponsors />
           <Crew />

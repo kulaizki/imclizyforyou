@@ -51,6 +51,6 @@ body {
   background: var(--background);
 }
 
-* {
+/* * {
   border: solid 1px red;
-}
+} */

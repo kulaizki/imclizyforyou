@@ -1,11 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Griffiths";
+  src: url("/src/fonts/Griffiths.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MADE Tommy";
+  src: url("/src/fonts/MADE TOMMY Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MADE Tommy";
+  src: url("/src/fonts/MADE TOMMY Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MADE Tommy";
+  src: url("/src/fonts/MADE TOMMY Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
 :root {
-  --background: #faf5e7;
+  --background: #fcecc0;
   --foreground: #171717;
 }
 
@@ -19,5 +45,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Poppins', sans-serif;
+  font-family: "MADE Tommy", sans-serif;
 }

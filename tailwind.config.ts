@@ -9,8 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        wedding: ["'Great Vibes'", "cursive"],
-        body: ["'Playfair Display'", "serif"],
+        wedding: ["'Griffiths'", "cursive"],
+        body: ["'MADE Tommy'", "sans-serif"],
+        regular: ["'MADE Tommy'", "sans-serif"],
+        bold: ["'MADE Tommy'", "sans-serif"],
+        thin: ["'MADE Tommy'", "sans-serif"],
       },
       colors: {
         background: "var(--background)",

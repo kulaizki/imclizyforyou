@@ -23,6 +23,7 @@ const Reception = () => {
           alt="QR Code for Directions"
           width={180}
           height={180}
+          draggable='false'
           className='rounded-xl'
         />
       </div>

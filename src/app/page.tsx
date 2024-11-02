@@ -9,25 +9,23 @@ import GiftsChildren from "@/components/GiftsChildren";
 export default function Home() {
   return (
     <main className="relative">
-      <div className="fixed inset-0 w-full h-screen z-0">
-        <div className="relative w-full h-auto">
-          <video
-            className="absolute w-full h-auto sm:h-[70vh] md:h-[40vh] lg:h-[100vh] object-cover"
-            autoPlay
-            loop
-            muted
-            playsInline
-          >
-            <source src="/assets/31.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+      <div className="fixed inset-0 w-screen h-screen z-0">
+        <video
+          className="w-full h-[50%] sm:h-[60%] md:h-[60%] lg:h-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src="/assets/32.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
-      <div className="relative z-10">
-        <div className="h-48 sm:h-80 md:h-64 lg:h-screen"></div>
-
-        <div className="relative w-full h-screen">
+      <div className="absolute inset-0 w-full z-10">
+        <div className="h-[50%] sm:h-[60%] md:h-[80vh] lg:h-screen" />
+        
+        <div className="relative w-full h-[60vh] sm:h-[70vh] md:h-[60vh] lg:h-screen">
           <div
             className="absolute inset-0 w-full h-full"
             style={{
@@ -38,15 +36,15 @@ export default function Home() {
             <Image
               src="/assets/image-header.png"
               alt="Clive & Zyra's Wedding"
-              width={1920}
-              height={1080}
+              fill
               sizes="100vw"
-              className="w-full h-auto sm:h-[40vh] md:h-[80] lg:h-[100vh] object-cover"
+              className="object-cover mt-10"
               priority
             />
           </div>
         </div>
 
+        {/* Main Content Section */}
         <div className="bg-[#fef1cf] flex flex-col items-center gap-y-16 p-4">
           <Sponsors />
           <Crew />
@@ -58,7 +56,7 @@ export default function Home() {
           <iframe
             title="RSVP Form"
             src="https://docs.google.com/forms/d/e/1FAIpQLSduD45efj0H9cTl_ClTztjaJoQM-626YssPMN7PaAI26U1-jA/viewform?embedded=true"
-            className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] border-0 mb-10"
+            className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] border-0 pb-10"
             allowFullScreen
           >
             Loading…

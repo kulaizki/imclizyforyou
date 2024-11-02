@@ -4,7 +4,6 @@ import Image from "next/image";
 const ReceptionGuest = () => {
   return (
     <div className="flex flex-col gap-y-16 md:flex-row bg-[#fef1cf] px-8 select-none">
-      {/* Reception Section */}
       <div className="bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-10 flex-1 mx-4 flex flex-col justify-top max-w-md md:max-w-2xl">
         <h1 className="text-5xl select-none font-wedding font-bold text-gray-800 tracking-wide text-center mb-12">
           Reception

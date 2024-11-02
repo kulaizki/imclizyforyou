@@ -21,8 +21,8 @@ const Reception = () => {
         <Image 
           src="/assets/reception-qr.png" 
           alt="QR Code for Directions"
-          width={360}
-          height={360}
+          width={180}
+          height={180}
           className='rounded-xl'
         />
       </div>

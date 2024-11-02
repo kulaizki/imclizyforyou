@@ -4,30 +4,34 @@
 
 @font-face {
   font-family: "Griffiths";
-  src: url("/src/fonts/Griffiths.otf") format("opentype");
+  src: url("/fonts/Griffiths.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "MADE Tommy";
-  src: url("/src/fonts/MADE TOMMY Bold.otf") format("opentype");
-  font-weight: bold;
+  src: url("/fonts/MADE TOMMY Bold.otf") format("opentype");
+  font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "MADE Tommy";
-  src: url("/src/fonts/MADE TOMMY Regular.otf") format("opentype");
-  font-weight: normal;
+  src: url("/fonts/MADE TOMMY Regular.otf") format("opentype");
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "MADE Tommy";
-  src: url("/src/fonts/MADE TOMMY Thin.otf") format("opentype");
+  src: url("/fonts/MADE TOMMY Thin.otf") format("opentype");
   font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -45,5 +49,4 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "MADE Tommy", sans-serif;
 }

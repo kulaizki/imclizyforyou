@@ -9,11 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        wedding: ["'Griffiths'", "cursive"],
-        body: ["'MADE Tommy'", "sans-serif"],
-        regular: ["'MADE Tommy'", "sans-serif"],
-        bold: ["'MADE Tommy'", "sans-serif"],
-        thin: ["'MADE Tommy'", "sans-serif"],
+        wedding: ["Griffiths", "sans-serif"],
+        body: ["MADE Tommy", "sans-serif"],
       },
       colors: {
         background: "var(--background)",
@@ -23,4 +20,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;

@@ -18,7 +18,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.png" sizes="any" /> 
       </head>
-      <body className="font-sans antialiased font-tommy">
+      <body className="antialiased font-body">
         {children}
       </body>
     </html>

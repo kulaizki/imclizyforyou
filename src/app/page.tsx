@@ -23,9 +23,10 @@ export default function Home() {
       </div>
 
       <div className="absolute inset-0 w-full z-10">
-        <div className="h-[50%] sm:h-[60%] md:h-[80vh] lg:h-screen" />
-        
-        <div className="relative w-full h-[60vh] sm:h-[70vh] md:h-[60vh] lg:h-screen">
+        <div className="h-[50%] sm:h-[40vh] md:h-[32vh] lg:h-screen" />
+
+        {/* Image Header Section */}
+        <div className="relative w-full h-[60vh] sm:h-[40vh] md:h-[60vh] lg:h-screen">
           <div
             className="absolute inset-0 w-full h-full"
             style={{
@@ -38,7 +39,7 @@ export default function Home() {
               alt="Clive & Zyra's Wedding"
               fill
               sizes="100vw"
-              className="object-cover mt-10"
+              className="object-cover mt-32 sm:mt-48 md:mt-20 lg:mt-0" // Increased mt values for xs, sm, and md screens
               priority
             />
           </div>

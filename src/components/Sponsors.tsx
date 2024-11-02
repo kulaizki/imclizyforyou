@@ -1,5 +1,4 @@
-export default function Sponsors() {
-  return (
+export default function Sponsors() { return (
     <div className="flex flex-col items-center justify-center bg-[#fef1cf] gap-y-8 px-8">
       <div className="flex flex-col gap-16 bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-20 max-w-5xl w-full">
         <div className="text-center max-w-4xl">
@@ -28,15 +27,15 @@ export default function Sponsors() {
           </h2>
           <div className="flex flex-col gap-8 text-lg sm:text-xl select-none text-gray-800">
             <div>
-              <h3 className="text-lg sm:text-xl font-regular text-gray-700 select-none">(To Light Our Path)</h3>
+              <h3 className="text-lg sm:text-xl font-regular text-gray-700 select-none">(TO LIGHT OUR PATH)</h3>
               <p>ARNOLD <span className="text-purple-700">JUDD</span> & CHELISSA <span className="text-purple-700">MAE</span></p>
             </div>
             <div>
-              <h3 className="text-lg sm:text-xl font-regular text-gray-700 select-none">(To Clothe Us As One)</h3>
+              <h3 className="text-lg sm:text-xl font-regular text-gray-700 select-none">(TO CLOTHE US AS ONE)</h3>
               <p>STEVE <span className="text-purple-700">CHUCKIE</span> & MARIA <span className="text-purple-700">ELENA</span></p>
             </div>
             <div>
-              <h3 className="text-lg sm:text-xl font-regular text-gray-700 select-none">(To Bind Us Together)</h3>
+              <h3 className="text-lg sm:text-xl font-regular text-gray-700 select-none">(TO BIND US TOGETHER)</h3>
               <p>OLIVER <span className="text-purple-700">NORMAN</span> & LEISA <span className="text-purple-700">JEANNE</span></p>
             </div>
           </div>

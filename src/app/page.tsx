@@ -5,6 +5,7 @@ import Crew from "@/components/Crew";
 import Sponsors from "@/components/Sponsors";
 import ReceptionGuest from "@/components/ReceptionGuest";
 import GiftsChildren from "@/components/GiftsChildren";
+import Venue from "@/components/Venue";
 
 export default function Home() {
   return (
@@ -45,6 +46,7 @@ export default function Home() {
         </div>
 
         <div className="bg-[#fef1cf] flex flex-col items-center gap-y-16 p-4 pt-40">
+          <Venue />
           <Sponsors />
           <Crew />
           <ReceptionGuest />

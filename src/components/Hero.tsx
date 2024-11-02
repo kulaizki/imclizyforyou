@@ -22,7 +22,7 @@ const Hero = () => {
 
   return (
     <div
-      className={`flex flex-col items-center justify-center min-h-screen bg-[#fef1cf] relative transition-opacity duration-1000 ${
+      className={`flex flex-col items-center justify-center min-h-screen bg-[#fef1cf] relative transition-opacity duration-1000 select-none ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
     >

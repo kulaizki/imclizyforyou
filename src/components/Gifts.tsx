@@ -1,6 +1,6 @@
 export default function Gifts() {
   return (
-    <div className="bg-[#fcecc0] bg-opacity-80 rounded-lg shadow-lg p-20 max-w-5xl w-full">
+    <div className="bg-[#fcecc0] bg-opacity-80 rounded-lg shadow-lg p-20 max-w-5xl w-full select-none">
       <h1 className="text-5xl font-wedding text-gray-800 tracking-wide text-center mb-12">
         Gifts
       </h1>

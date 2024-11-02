@@ -16,7 +16,7 @@ export default function Home() {
         muted
         playsInline
       >
-        <source src="/assets/test-vid.mp4" type="video/mp4" />
+        <source src="/assets/3.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -28,7 +28,7 @@ export default function Home() {
       <Gifts />
       <Children />
 
-      <h1 className="text-7xl font-wedding font-semibold text-gray-800 tracking-wide">
+      <h1 className="text-7xl select-none font-wedding font-semibold text-gray-800 tracking-wide">
         Join us
       </h1>
 

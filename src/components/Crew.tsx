@@ -1,6 +1,6 @@
 export default function Crew() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-[#fef1cf] gap-y-8 p-8">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#fef1cf] gap-y-8 p-8 select-none">
       <div className="bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-20 max-w-5xl w-full">
         <h1 className="text-5xl font-wedding text-gray-800 tracking-wide text-center mb-12">
           The &quot;I Do&quot; Crew
@@ -18,9 +18,7 @@ export default function Crew() {
             <p className="text-lg text-gray-800 uppercase">Maria Catherine</p>
             <p className="text-lg text-gray-800 uppercase">Mel Loise</p>
             <p className="text-lg text-gray-800 uppercase">Jan Patrice</p>
-            <p className="text-lg text-gray-800 uppercase">
-              Ma. Precious Eugene
-            </p>
+            <p className="text-lg text-gray-800 uppercase">Ma. Precious Eugene</p>
             <p className="text-lg text-gray-800 uppercase">Patricia Mae</p>
             <p className="text-lg text-gray-800 uppercase">Yaddah Shalom</p>
             <p className="text-lg text-gray-800 uppercase">Cazzandhra Mae</p>

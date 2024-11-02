@@ -42,8 +42,9 @@ export default function Home() {
             <Image
               src="/assets/image-header.png"
               alt="Clive & Zyra's Wedding"
-              width={1920}
-              height={1080}
+              width={0}
+              height={0}
+              sizes="100vw"
               className="w-full h-full object-cover"
               priority
             />

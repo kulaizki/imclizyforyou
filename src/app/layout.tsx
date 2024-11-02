@@ -15,6 +15,9 @@ export default function RootLayout({
 }: RootLayoutProps) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.png" sizes="any" /> 
+      </head>
       <body className="font-sans antialiased">
         {children}
       </body>

@@ -26,6 +26,7 @@ const ReceptionGuest = () => {
             height={180}
             draggable="false"
             className="rounded-xl no-select"
+            onContextMenu={(e) => e.preventDefault()}
           />
         </div>
       </div>

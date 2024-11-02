@@ -43,6 +43,7 @@ export default function Home() {
               className="object-cover mt-32 md:mt-20 lg:mt-0 no-select" 
               priority
               draggable='false'
+              onContextMenu={(e) => e.preventDefault()}
             />
           </div>
         </div>

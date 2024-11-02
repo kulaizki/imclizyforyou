@@ -21,8 +21,8 @@ export default function Home() {
       </video>
 
       <Hero />
-      <Crew />
       <Sponsors />
+      <Crew />
       <Reception />
       <Attire />
       <Gifts />

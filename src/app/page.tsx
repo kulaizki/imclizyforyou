@@ -25,9 +25,9 @@ export default function Home() {
       <div className="absolute inset-0 w-full z-10">
         <div className="h-[50%] sm:h-[40vh] md:h-[32vh] lg:h-screen" />
 
-        <div className="relative w-full h-[70vh] sm:h-[40vh] md:h-[60vh] lg:h-screen">
+        <div className="relative w-full h-[70vh] sm:h-[40vh] md:h-[70vh] lg:h-screen">
           <div
-            className="absolute inset-0 w-full h-full mt-10"
+            className="absolute inset-0 w-full h-full mt-20 sm:mt-10 md:mb-10"
             style={{
               background:
                 "linear-gradient(to top, #fef1cf 10%, transparent 100%)",
@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-[#fef1cf] flex flex-col items-center gap-y-16 p-4">
+        <div className="bg-[#fef1cf] flex flex-col items-center gap-y-16 p-4 pt-40">
           <Sponsors />
           <Crew />
           <ReceptionGuest />

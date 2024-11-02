@@ -1,6 +1,6 @@
 export default function Crew() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-[#fef1cf] gap-y-8 p-8 select-none">
+    <div className="flex flex-col items-center justify-center bg-[#fef1cf] gap-y-8 px-8 select-none">
       <div className="bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-20 max-w-5xl w-full">
         <h1 className="text-5xl font-wedding font-bold text-gray-800 tracking-wide text-center mb-12">
           The &quot;I Do&quot; Crew

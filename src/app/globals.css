@@ -50,3 +50,7 @@ body {
   color: var(--foreground);
   background: var(--background);
 }
+
+* {
+  border: solid 1px red;
+}

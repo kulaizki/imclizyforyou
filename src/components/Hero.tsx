@@ -35,7 +35,7 @@ const Hero = () => {
           Clive & Zyra&apos;s Wedding
         </h1>
         <p className="text-4xl font-serif text-gray-600 leading-7 animate-fadeIn delay-200">
-          Celebrate this special day with us!
+          #imclizyforyou
         </p>
       </div>
     </div>

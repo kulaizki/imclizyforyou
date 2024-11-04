@@ -7,6 +7,7 @@ import ReceptionGuest from "@/components/ReceptionGuest";
 import GiftsChildren from "@/components/GiftsChildren";
 import Venue from "@/components/Venue";
 import Parents from "@/components/Parents";
+import CopyrightFooter from "@/components/CopyrightFooter";
 
 export default function Home() {
   return (
@@ -40,9 +41,9 @@ export default function Home() {
               alt="Clive & Zyra's Wedding"
               fill
               sizes="100vw"
-              className="object-cover mt-32 md:mt-20 lg:mt-0 no-select" 
+              className="object-cover mt-32 md:mt-20 lg:mt-0 no-select"
               priority
-              draggable='false'
+              draggable="false"
               onContextMenu={(e) => e.preventDefault()}
             />
           </div>
@@ -67,6 +68,8 @@ export default function Home() {
             Loading…
           </iframe>
         </div>
+
+        <CopyrightFooter />
       </div>
     </main>
   );

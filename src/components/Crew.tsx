@@ -10,7 +10,8 @@ export default function Crew() {
           <span>Crew</span>
         </h1>
 
-        <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-4xl gap-8">
+        <div className="flex flex-col md:flex-row items-start justify-between w-full max-w-4xl gap-8">
+
           <div className="flex-1 text-center">
             <h2 className="text-2xl sm:text-3xl font-wedding font-semibold text-purple-600">
               Bride&apos;s Circle
@@ -56,7 +57,7 @@ export default function Crew() {
             </p>
           </div>
 
-          <div className="flex-1 text-center sm:mt-8">
+          <div className="flex-1 text-center">
             <h2 className="text-2xl sm:text-3xl font-wedding font-semibold text-blue-600">
               Groom&apos;s Guild
             </h2>

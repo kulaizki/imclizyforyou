@@ -41,7 +41,7 @@ export default function EventCountdown() {
 
   return (
     <div className="flex flex-col items-center gap-8 text-center text-gray-800 py-8 px-4">
-      <h2 className="font-wedding text-3xl sm:text-4xl md:text-7xl font-semibold">
+      <h2 className="font-wedding text-slate-700  text-3xl sm:text-4xl md:text-7xl font-semibold">
         Countdown to the Big Day
       </h2>
       <div className="flex justify-center gap-4 md:gap-6">

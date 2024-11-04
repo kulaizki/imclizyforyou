@@ -8,6 +8,7 @@ import GiftsChildren from "@/components/GiftsChildren";
 import Venue from "@/components/Venue";
 import Parents from "@/components/Parents";
 import CopyrightFooter from "@/components/CopyrightFooter";
+import EventCountdown from "@/components/EventCountdown";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
         </div>
 
         <div className="bg-[#fef1cf] flex flex-col items-center gap-y-16 p-4 pt-40">
+          <EventCountdown />
           <Venue />
           <Parents />
           <Sponsors />

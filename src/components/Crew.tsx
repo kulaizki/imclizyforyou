@@ -1,7 +1,7 @@
 export default function Crew() {
   return (
     <div className="flex flex-col items-center justify-center bg-[#fef1cf] gap-y-8 px-8 select-none">
-      <div className="bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-20 max-w-5xl w-full">
+      <div className="bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg px-4 py-8 md:p-20 max-w-5xl w-full">
         <h1 className="text-4xl sm:text-5xl font-wedding font-bold text-gray-800 tracking-wide text-center mb-12">
           <span>The</span>
           <br />
@@ -10,16 +10,15 @@ export default function Crew() {
           <span>Crew</span>
         </h1>
 
-        <div className="flex flex-col md:flex-row items-start justify-between w-full max-w-4xl gap-8">
-
+        <div className="flex flex-col items-center md:flex-row justify-between w-full max-w-4xl gap-8">
           <div className="flex-1 text-center">
             <h2 className="text-2xl sm:text-3xl font-wedding font-semibold text-purple-600">
               Bride&apos;s Circle
             </h2>
-            <p className="text-purple-400 text-base sm:text-lg mt-4 uppercase">
+            <p className="text-purple-400 text-base sm:text-lg mt-4 uppercase whitespace-nowrap">
               (Maid of Honor) Marissa Xuxa
             </p>
-            <p className="text-base sm:text-lg text-gray-800 uppercase">
+            <p className="text-base sm:text-lg text-gray-800 uppercase whitespace-nowrap">
               Karyl Trinidad
             </p>
             <p className="text-base sm:text-lg text-gray-800 uppercase">
@@ -61,10 +60,10 @@ export default function Crew() {
             <h2 className="text-2xl sm:text-3xl font-wedding font-semibold text-blue-600">
               Groom&apos;s Guild
             </h2>
-            <p className="text-blue-400 text-base sm:text-lg mt-4 uppercase">
+            <p className="text-blue-400 text-base sm:text-lg mt-4 uppercase whitespace-nowrap">
               (Best Man) Angelo Jude
             </p>
-            <p className="text-base sm:text-lg text-gray-800 uppercase">
+            <p className="text-base sm:text-lg text-gray-800 uppercase whitespace-nowrap">
               Elvis James
             </p>
             <p className="text-base sm:text-lg text-gray-800 uppercase">
@@ -108,11 +107,11 @@ export default function Crew() {
             The Flauras Dryads
           </h2>
           <div className="flex flex-wrap justify-center mt-4 gap-x-6 gap-y-2 text-base sm:text-lg text-gray-800 uppercase">
-            <p>Arya Madison</p>
-            <p>Anna Maria</p>
-            <p>Rhian Zhavia</p>
-            <p>Mattea Alexa</p>
-            <p>Maria Lourdes</p>
+            <p className="whitespace-nowrap">Arya Madison</p>
+            <p className="whitespace-nowrap">Anna Maria</p>
+            <p className="whitespace-nowrap">Rhian Zhavia</p>
+            <p className="whitespace-nowrap">Mattea Alexa</p>
+            <p className="whitespace-nowrap">Maria Lourdes</p>
           </div>
         </div>
 
@@ -121,9 +120,9 @@ export default function Crew() {
             The Emissaries
           </h2>
           <div className="flex flex-wrap justify-center mt-4 gap-x-8 text-base sm:text-lg text-gray-800 uppercase">
-            <p>(Symbol of Love) Joachim Atom</p>
-            <p>(Symbol of Treasure) Kyle Nicole</p>
-            <p>(Symbol of Faith) Riley James</p>
+            <p className="whitespace-nowrap">(Symbol of Love) Joachim Atom</p>
+            <p className="whitespace-nowrap">(Symbol of Treasure) Kyle Nicole</p>
+            <p className="whitespace-nowrap">(Symbol of Faith) Riley James</p>
           </div>
         </div>
 
@@ -131,7 +130,7 @@ export default function Crew() {
           <h2 className="text-2xl sm:text-3xl font-wedding font-semibold text-purple-600">
             The Nuptial Heralds
           </h2>
-          <p className="text-base sm:text-lg mt-4 text-gray-800 uppercase">
+          <p className="text-base sm:text-lg mt-4 text-gray-800 uppercase whitespace-nowrap">
             Daniele Sebastian & Jhulia
           </p>
         </div>

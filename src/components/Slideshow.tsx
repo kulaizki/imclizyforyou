@@ -5,7 +5,7 @@ const Slideshow = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   const images = Array.from({ length: 8 }, (_, i) => ({
-    src: `/assets/${i + 1}.jpeg`,
+    src: `/assets/${i + 1}.jpg`,
     alt: `Slideshow Image ${i + 1}`
   }));
 

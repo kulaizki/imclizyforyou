@@ -9,11 +9,12 @@ import Parents from "@/components/Parents";
 import CopyrightFooter from "@/components/CopyrightFooter";
 import EventCountdown from "@/components/EventCountdown";
 import Slideshow from "@/components/Slideshow";
+import AudioPlayer from "@/components/AudioPlayer";
 
 export default function Home() {
   return (
     <main className="relative">
-      <audio src="/song.mp3" autoPlay loop />
+      <AudioPlayer /> {/* Include the AudioPlayer component */}
       <div className="fixed inset-0 w-screen h-screen z-0">
         <video
           className="w-full h-[50%] sm:h-[60%] md:h-[60%] lg:h-full object-cover"

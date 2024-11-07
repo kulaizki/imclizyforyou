@@ -1,4 +1,5 @@
 "use client";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import Crew from "@/components/Crew";
 import Sponsors from "@/components/Sponsors";
@@ -9,12 +10,25 @@ import Parents from "@/components/Parents";
 import CopyrightFooter from "@/components/CopyrightFooter";
 import EventCountdown from "@/components/EventCountdown";
 import Slideshow from "@/components/Slideshow";
-import AudioPlayer from "@/components/AudioPlayer";
 
 export default function Home() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement>(null);
+
+  const handlePlayPause = () => {
+    if (isPlaying) {
+      audioRef.current?.pause();
+    } else {
+      audioRef.current?.play().catch((error) => {
+        console.error("Error playing audio:", error);
+      });
+    }
+    setIsPlaying(!isPlaying);
+  };
+
   return (
     <main className="relative">
-      <AudioPlayer /> {/* Include the AudioPlayer component */}
+      <audio ref={audioRef} src="/song.mp3" loop />
       <div className="fixed inset-0 w-screen h-screen z-0">
         <video
           className="w-full h-[50%] sm:h-[60%] md:h-[60%] lg:h-full object-cover"
@@ -50,6 +64,13 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-[#fef1cf] flex flex-col items-center gap-y-16 p-4 pt-40">
+          <button
+            onClick={handlePlayPause}
+            className={`px-6 py-3 bg-purple-600 text-white rounded-lg shadow-md transition duration-300 
+                        hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-300`}
+          >
+            {isPlaying ? "Pause Music" : "Play Music"}
+          </button>
           <Slideshow />
           <EventCountdown />
           <Venue />
@@ -58,6 +79,7 @@ export default function Home() {
           <Crew />
           <ReceptionGuest />
           <GiftsChildren />
+
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl select-none font-wedding font-semibold text-gray-800 tracking-wide">
             RSVP
           </h1>

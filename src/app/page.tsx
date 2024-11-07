@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import Crew from "@/components/Crew";
 import Sponsors from "@/components/Sponsors";
@@ -14,6 +13,7 @@ import Slideshow from "@/components/Slideshow";
 export default function Home() {
   return (
     <main className="relative">
+      <audio src="/song.mp3" autoPlay loop />
       <div className="fixed inset-0 w-screen h-screen z-0">
         <video
           className="w-full h-[50%] sm:h-[60%] md:h-[60%] lg:h-full object-cover"
@@ -26,7 +26,6 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
       </div>
-
       <div className="absolute inset-0 w-full z-10">
         <div className="h-[50%] sm:h-[40vh] md:h-[32vh] lg:h-screen" />
         <div className="relative w-full h-[70vh] sm:h-[40vh] md:h-[70vh] lg:h-screen">
@@ -49,7 +48,6 @@ export default function Home() {
             />
           </div>
         </div>
-
         <div className="bg-[#fef1cf] flex flex-col items-center gap-y-16 p-4 pt-40">
           <Slideshow />
           <EventCountdown />
@@ -71,7 +69,6 @@ export default function Home() {
             Loading…
           </iframe>
         </div>
-
         <CopyrightFooter />
       </div>
     </main>

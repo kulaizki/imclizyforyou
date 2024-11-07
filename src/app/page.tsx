@@ -49,16 +49,6 @@ export default function Home() {
       <audio ref={audioRef} src="/song.mp3" loop />
       {!isDateValid ? (
         <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-purple-100 to-purple-300 relative overflow-hidden">
-          <div className="absolute inset-0 opacity-25">
-            <Image
-              src="/assets/background-pattern.png" 
-              alt="Background Pattern"
-              fill
-              className="object-cover"
-              priority
-              draggable="false"
-            />
-          </div>
           <h2 className="font-wedding text-5xl mb-4 text-purple-600 text-center font-bold z-10">Please enter the wedding date:</h2>
           <form onSubmit={handleSubmit} className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg z-10">
             <input

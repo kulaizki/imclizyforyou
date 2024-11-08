@@ -13,21 +13,9 @@ import EventCountdown from "@/components/EventCountdown";
 import Slideshow from "@/components/Slideshow";
 
 export default function Home() {
-  const [isPlaying, setIsPlaying] = useState(false);
   const [weddingDate, setWeddingDate] = useState("");
   const [isDateValid, setIsDateValid] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
-
-  const handlePlayPause = () => {
-    if (isPlaying) {
-      audioRef.current?.pause();
-    } else {
-      audioRef.current?.play().catch((error) => {
-        console.error("Error playing audio:", error);
-      });
-    }
-    setIsPlaying(!isPlaying);
-  };
 
   const handleDateChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setWeddingDate(event.target.value);
@@ -38,6 +26,9 @@ export default function Home() {
 
     if (weddingDate === "12/28/24") {
       setIsDateValid(true);
+      audioRef.current?.play().catch((error) => {
+        console.error("Error playing audio:", error);
+      });
     } else {
       alert("Please enter a valid wedding date.");
       setIsDateValid(false);
@@ -49,8 +40,13 @@ export default function Home() {
       <audio ref={audioRef} src="/song.mp3" loop />
       {!isDateValid ? (
         <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-r from-purple-100 to-purple-300 relative overflow-hidden">
-          <h2 className="font-wedding text-5xl mb-4 text-purple-600 text-center font-bold z-10">Please enter the wedding date:</h2>
-          <form onSubmit={handleSubmit} className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg z-10">
+          <h2 className="font-wedding text-5xl mb-4 text-purple-600 text-center font-bold z-10">
+            Please enter the wedding date:
+          </h2>
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg z-10"
+          >
             <input
               type="text"
               value={weddingDate}
@@ -104,13 +100,6 @@ export default function Home() {
               </div>
             </div>
             <div className="bg-[#fef1cf] flex flex-col items-center gap-y-16 p-4 pt-40">
-              <button
-                onClick={handlePlayPause}
-                className={`px-6 py-3 bg-purple-600 text-white rounded-lg shadow-md transition duration-300 
-                            hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-300`}
-              >
-                {isPlaying ? "Pause Music" : "Play Music"}
-              </button>
               <Slideshow />
               <EventCountdown />
               <Venue />

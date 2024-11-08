@@ -51,7 +51,6 @@ export default function Home() {
               type="text"
               value={weddingDate}
               onChange={handleDateChange}
-              placeholder="MM/DD/YY"
               className="border border-gray-400 p-2 rounded mb-4 text-slate-700 w-full max-w-xs"
             />
             <button

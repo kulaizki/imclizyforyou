@@ -30,7 +30,7 @@ export default function Home() {
         console.error("Error playing audio:", error);
       });
     } else {
-      alert("Please enter a valid wedding date.");
+      alert("Please enter a valid code.");
       setIsDateValid(false);
     }
   };

@@ -107,7 +107,6 @@ export default function Home() {
               <Crew />
               <ReceptionGuest />
               <GiftsChildren />
-
               <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl select-none font-wedding font-semibold text-gray-800 tracking-wide">
                 RSVP
               </h1>

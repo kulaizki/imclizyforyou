@@ -4,7 +4,7 @@ export default function Crew() {
   return (
     <div className="flex flex-col items-center justify-center bg-[#fef1cf] gap-y-8 px-8 relative">
       <div className="flex flex-col gap-16 bg-[#faf5e7] bg-opacity-80 rounded-lg shadow-lg p-20 max-w-5xl w-full z-10 relative">
-        <div className="hidden md:block absolute inset-0 bg-[url('/assets/side1.png')] bg-cover bg-no-repeat bg-center opacity-40 z-0" />
+        <div className="hidden md:block absolute inset-0 bg-[url('/assets/side2.png')] bg-cover bg-no-repeat bg-center opacity-40 z-0" />
 
         <div className="text-center max-w-4xl">
           <h1 className="text-4xl sm:text-5xl md:text-6xl select-none font-wedding font-bold text-gray-800 mb-12">
